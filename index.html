@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Za moju Žutu</title>
+  <meta name="description" content="Mala stranica za moju Žutu 💛" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="heartsCanvas" aria-hidden="true"></canvas>
+
+  <a class="skip-link" href="#main">Preskoči na sadržaj</a>
+
+  <header class="topbar" role="banner">
+    <div class="wrap topbar__inner">
+      <div class="brand" aria-label="Naslov sajta">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span id="siteTitle">Za moju Žutu</span>
+      </div>
+      <nav class="nav" aria-label="Navigacija">
+        <a href="#gallery">Galerija</a>
+        <a href="#letter">Pismo</a>
+        <a href="#timeline">Uspomene</a>
+        <a href="#reasons">Razlozi</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow" id="eyebrow">žuta • princeza • srce moje • bejbi</p>
+          <h1 id="heroTitle">Za moju Žutu 💛</h1>
+          <p class="lead" id="heroLine">Sve mi nekako bude mirnije kad si ti tu.</p>
+          <div class="hero__actions">
+            <button class="btn" id="startBtn" type="button">Kreni</button>
+            <a class="btn btn--ghost" href="#letter">Pročitaj pismo</a>
+          </div>
+          <p class="hint" id="photoHint">Savjet: klikni na sliku da je uvećaš.</p>
+        </div>
+        <div class="hero__card" aria-label="Kratka poruka">
+          <div class="card">
+            <p class="card__title" id="cardTitle">Mala stvar, ali od srca</p>
+            <p class="card__text" id="cardText">Ovo je za tebe. Da imaš nešto što možeš otvoriti kad ti zatreba.</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero__fade" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Galerija</h2>
+          <p class="muted" id="gallerySubtitle">Više tvojih slika, jer ti si ti.</p>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Izbor galerije">
+          <button class="tab is-active" type="button" data-tab="her" role="tab" aria-selected="true">Žuta</button>
+          <button class="tab" type="button" data-tab="us" role="tab" aria-selected="false">Mi</button>
+          <button class="tab" type="button" data-tab="all" role="tab" aria-selected="false">Sve</button>
+        </div>
+
+        <div class="grid" id="photoGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section section--letter" id="letter">
+      <div class="wrap letter">
+        <div class="section__head">
+          <h2>Pismo</h2>
+          <p class="muted" id="letterSubtitle">Napisano kako osjećam, bez glume.</p>
+        </div>
+
+        <article class="paper" aria-label="Love letter">
+          <h3 class="paper__to" id="letterTo">Žuta moja,</h3>
+          <div id="letterBody" class="paper__body"></div>
+          <p class="paper__from" id="letterFrom">Tvoj. 💛</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="timeline">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Uspomene</h2>
+          <p class="muted">Sitnice koje meni znače mnogo.</p>
+        </div>
+
+        <ol class="timeline" id="timelineList"></ol>
+      </div>
+    </section>
+
+    <section class="section" id="reasons">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Razlozi zašto te volim</h2>
+          <p class="muted">Nema rang liste. Sve je isto važno.</p>
+        </div>
+
+        <div class="cards" id="reasonsGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="wrap footer__inner">
+      <p class="footer__big" id="footerBig">Žuta, ti si moj mir.</p>
+      <p class="footer__small">Made with love.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Uvećana slika">
+    <div class="lightbox__backdrop" data-close="true" tabindex="-1"></div>
+    <div class="lightbox__panel" role="document">
+      <button class="iconbtn" id="lbClose" type="button" aria-label="Zatvori">×</button>
+      <button class="iconbtn iconbtn--left" id="lbPrev" type="button" aria-label="Prethodna slika">‹</button>
+      <img id="lbImg" alt="" />
+      <button class="iconbtn iconbtn--right" id="lbNext" type="button" aria-label="Sljedeća slika">›</button>
+      <p class="lightbox__caption" id="lbCaption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

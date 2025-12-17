@@ -1,0 +1,69 @@
+{
+  "siteTitle": "Za moju Žutu 💛",
+  "heroTitle": "Za moju Žutu 💛",
+  "heroLine": "Sve mi nekako bude mirnije kad si ti tu.",
+  "nicknames": [
+    "žuta",
+    "princeza",
+    "srce moje",
+    "bejbi"
+  ],
+  "gallerySubtitle": "Više tvojih slika, jer ti si ti.",
+  "letterSubtitle": "Napisano kako osjećam, bez glume.",
+  "footerBig": "Žuta, ti si moj mir.",
+  "gallery": {
+    "herTag": "Žuta",
+    "ourTag": "Mi",
+    "herPhotos": [
+      "assets/photos/her-01.jpg",
+      "assets/photos/her-02.jpg",
+      "assets/photos/her-03.jpg",
+      "assets/photos/her-04.jpg",
+      "assets/photos/her-05.jpg",
+      "assets/photos/her-06.jpg",
+      "assets/photos/her-07.jpg",
+      "assets/photos/her-08.jpg"
+    ],
+    "ourPhotos": [
+      "assets/photos/us-01.jpg",
+      "assets/photos/us-02.jpg",
+      "assets/photos/us-03.jpg"
+    ]
+  },
+  "loveLetter": [
+    "Žuta moja,",
+    "Nekad stvarno ne znam kako da počnem. Samo znam da mi dođeš u glavu i ostaneš tu. I to je to.",
+    "Ne znam zašto je tako, ali kad si ti tu, sve mi nekako ima manje buke. Nije da je sve super, nije. Ali je lakše. I nekako mirnije. Valjda zato što si ti.",
+    "Princezo, ne trebaš ti biti ništa više nego što jesi. Stvarno. Ne moraš se truditi da budeš jaka, ni vesela, ni raspoložena kad ti se ne da. Meni je okej i kad si tiha, i kad si smorena, i kad ti sve ide na živce. Tad mi je možda čak i draža, jer znam da si stvarna.",
+    "Srce moje, često uhvatim sebe kako samo gledam u poruke ili u neku tvoju sliku i razmišljam kako mi je lijepo što postojiš u mom životu. Nema tu neke filozofije. Samo osjećaj.",
+    "Bejbi, nisam savršen i nikad neću biti. Nekad šutim kad ne treba, nekad pričam previše. Ali jedno ne radim. Ne odustajem od tebe. I ne planiram.",
+    "Ako ikad pomisliš da nisi dovoljna ili da moraš biti drugačija, nemoj. Za mene si tačno takva kakva trebaš biti. I to mi je dovoljno. Više nego dovoljno.",
+    "Tvoj."
+  ],
+  "timeline": [
+    {
+      "date": "Dodaj datum",
+      "text": "Ovdje upiši neku vašu uspomenu (prvi izlazak, prvi poljubac, prva šetnja, bilo šta)."
+    },
+    {
+      "date": "Dodaj datum",
+      "text": "Ne mora biti savršeno, samo stvarno."
+    },
+    {
+      "date": "Dodaj datum",
+      "text": "Sitnice koje tebi možda djeluju male, a meni su ogromne."
+    }
+  ],
+  "reasons": [
+    "Jer me smiriš kad niko drugi ne može.",
+    "Jer si iskrena i kad ti se ne priča.",
+    "Jer si lijepa i kad misliš da nisi.",
+    "Jer mi fališ čim odeš.",
+    "Jer mi je tvoj glas dovoljan da mi popravi dan.",
+    "Jer si moja žuta.",
+    "Jer si moja princeza.",
+    "Jer si moje srce.",
+    "Jer si moj bejbi.",
+    "Jer si ti, takva kakva jesi."
+  ]
+}
