@@ -18,17 +18,14 @@
       "assets/photos/her-01.jpg",
       "assets/photos/her-02.jpg",
       "assets/photos/her-03.jpg",
-      "assets/photos/her-04.jpg",
-      "assets/photos/her-05.jpg",
-      "assets/photos/her-06.jpg",
-      "assets/photos/her-07.jpg",
-      "assets/photos/her-08.jpg"
     ],
     "ourPhotos": [
       "assets/photos/us-01.jpg",
       "assets/photos/us-02.jpg",
-      "assets/photos/us-03.jpg"
-    ]
+      "assets/photos/us-03.jpg",
+      "assets/photos/us-04.jpg",
+      "assets/photos/us-05.jpg",
+    ],
   },
   "loveLetter": [
     "Žuta moja,",
@@ -42,8 +39,8 @@
   ],
   "timeline": [
     {
-      "date": "Dodaj datum",
-      "text": "Ovdje upiši neku vašu uspomenu (prvi izlazak, prvi poljubac, prva šetnja, bilo šta)."
+      "15.10.": 
+      "text": "Nas prvi izlaz."
     },
     {
       "date": "Dodaj datum",
@@ -55,15 +52,17 @@
     }
   ],
   "reasons": [
-    "Jer me smiriš kad niko drugi ne može.",
-    "Jer si iskrena i kad ti se ne priča.",
-    "Jer si lijepa i kad misliš da nisi.",
-    "Jer mi fališ čim odeš.",
-    "Jer mi je tvoj glas dovoljan da mi popravi dan.",
-    "Jer si moja žuta.",
-    "Jer si moja princeza.",
-    "Jer si moje srce.",
-    "Jer si moj bejbi.",
-    "Jer si ti, takva kakva jesi."
+  "Jer me smiriš i kad ne znaš da to radiš.",
+  "Jer si iskrena, čak i kad je lakše šutjeti.",
+  "Jer imaš način da svijet izgleda jednostavnije.",
+  "Jer me razumiješ i kad ne znam objasniti šta osjećam.",
+  "Jer si jaka, ali nježna na način koji se rijetko vidi.",
+  "Jer me nasmiješ bez da se trudiš.",
+  "Jer si svoja i ne glumiš ništa.",
+  "Jer s tobom imam osjećaj doma.",
+  "Jer mi fališ čim te nema.",
+  "Jer si ti – baš takva kakva jesi."
+]
+
   ]
 }
